@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabItemView">
+        <attr name="tabItem_icon" format="color|reference" />
+        <attr name="tabItem_title" format="string" />
+        <attr name="tabItem_showRedPoint" format="boolean" />
+        <attr name="tabItem_txtColor" format="color|reference" />
+        <attr name="tabItem_checked" format="boolean" />
+        <attr name="tabItem_mode">
+            <enum name="complex" value="0" />
+            <enum name="image" value="1" />
+            <enum name="text" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="BottomTabLayout">
+        <attr name="btl_tabItem_mode">
+            <enum name="complex" value="0" />
+            <enum name="image" value="1" />
+            <enum name="text" value="2" />
+        </attr>
+
+        <attr name="btl_tabItem_img_mode">
+            <enum name="match" value="2" />
+            <enum name="wrap"  value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

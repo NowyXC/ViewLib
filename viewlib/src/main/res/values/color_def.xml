@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="windowBackground">#f3f3f6</color> <!--窗口背景颜色-->
+    <color name="textColorPrimary">#333333</color> <!--主要文字颜色，actionBar的标题文字默认使用该颜色-->
+
+
+    <color name="colorForeground">#e1e1e1</color> <!--应用的前景色，ListView的分割线，switch滑动区默认使用该颜色-->
+    <color name="colorControlNormal">#c90064</color>  <!--CheckBox，RadioButton，SwitchCompat等默认状态的颜色。-->
+    <color name="colorControlHighlight">#e30070</color> <!--控件按压时的色调-->
+    <color name="colorButtonNormal">#e30070</color>  <!--默认按钮的背景颜色-->
+
+    <color name="editTextColor">@color/textColorPrimary</color>  <!--默认EditView输入框字体的颜色-->
+    <color name="textColor">@color/textColorPrimary</color>  <!-- Button，textView的文字颜色-->
+
+    <color name="white">#ffffff</color>
+    <color name="bg_light_gray">#d1d1d1</color>
+    <color name="bg_gray">#c1c1c1</color>
+
+    <color name="translucent">#7f000000</color> <!--半透明-->
+    <color name="translucent_30">#4d000000</color> <!--30%的透明-->
+    <color name="transparent">#00000000</color><!--透明-->
+
+    <color name="translucent_white_30">#4dffffff</color><!--30透明白色-->
+    <color name="translucent_white_20">#33ffffff</color><!--20透明白色-->
+    <color name="translucent_white_70">#B2ffffff</color><!--20透明白色-->
+
+
+    <!--按钮状态-->
+    <color name="btn_normal">?colorPrimary</color><!--普通状态-->
+    <color name="btn_press">?colorPrimaryDark</color> <!--按下状态-->
+    <color name="btn_unEnable">#d1d1d1</color> <!--失效状态-->
+
+
+</resources>

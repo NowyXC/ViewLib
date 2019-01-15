@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tbar_txt_title">#333</color>
+    <color name="tbar_txt_right">#666</color>
+
+
+    <color name="tbar_bg_titleBar">#fff</color>
+</resources>

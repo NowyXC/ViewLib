@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--高度-->
+    <dimen name="tbar_height">44dp</dimen>
+
+
+    <!--标题文本尺寸-->
+    <dimen name="tbar_txt_title">18sp</dimen>
+    <dimen name="tbar_txt_left">14sp</dimen>
+    <dimen name="tbar_txt_right">14sp</dimen>
+    <dimen name="tbar_txt_right_unread">11sp</dimen>
+</resources>
