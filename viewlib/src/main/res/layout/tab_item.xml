@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/tab_item_Ll"
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_weight="1"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:layout_weight="1">
+    <LinearLayout
+        android:id="@+id/tab_item_Ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
 
-    <ImageView
-        android:id="@+id/tab_item_IvIcon"
-        android:layout_width="wrap_content"
-        android:layout_height="24dp"
-        android:scaleType="centerInside" />
+        <ImageView
+            android:id="@+id/tab_item_IvIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:scaleType="centerInside" />
 
+        <TextView
+            android:id="@+id/tab_item_TvTitle"
+            style="@style/tab_bottom_TvStyle"
+            android:gravity="center"
+            android:paddingTop="2dp"
+            android:text="title" />
+    </LinearLayout>
     <TextView
-        android:id="@+id/tab_item_TvTitle"
-        style="@style/tab_bottom_TvStyle"
+        android:id="@+id/tab_item_TvUnReader"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="right"
+        android:includeFontPadding="false"
+        android:background="@drawable/bg_shape_rect_red_small"
         android:gravity="center"
-        android:paddingTop="2dp"
-        android:text="title" />
-</LinearLayout>
+        android:text="12"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        android:textSize="10sp"/>
+</FrameLayout>

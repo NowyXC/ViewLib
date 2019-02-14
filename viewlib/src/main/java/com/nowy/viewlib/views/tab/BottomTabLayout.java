@@ -172,7 +172,7 @@ public class BottomTabLayout extends LinearLayout {
         LayoutParams lp = new LayoutParams(0,
                 ViewGroup.LayoutParams.MATCH_PARENT,1);
         for(int  i = 0 ; i < count ; i++){
-            if(count < childViewCount){//复用
+            if(i < childViewCount){//复用,修正为遍历i
                 View convertView = this.getChildAt(i);
                 mTabAdapter.getView(i,convertView,this);
 
@@ -188,7 +188,7 @@ public class BottomTabLayout extends LinearLayout {
         }
 
         //多的需要移除
-        for (int i = childViewCount - 1; i >= count; i--) {
+        for (int i = this.getChildCount() - 1; i >= count; i--) {
             this.removeViewAt(i);
         }
         invalidate();//更新布局
